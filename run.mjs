@@ -1,5 +1,5 @@
-import { list, option, selectors, stdout, value } from '@cairul/plugin-kit/runner';
-import { goTest } from '@cairul/plugin-kit/reports';
+import { list, option, selectors, stdout, value } from '@cairul/pdk/runner';
+import { goTest } from '@cairul/pdk/reports';
 
 function depth(pattern = '') {
   let nesting = 0;
